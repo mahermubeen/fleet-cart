@@ -17223,7 +17223,7 @@ textarea:-ms-input-placeholder {
 .theme-red .user-cart .cart-amount .cart-label,
 .theme-sky-blue .user-cart .cart-amount .cart-label,
 .theme-violet .user-cart .cart-amount .cart-label {
-    color: #464646
+    color: #fff
 }
 
 .user-cart .cart-amount .cart-price {
@@ -17243,7 +17243,7 @@ textarea:-ms-input-placeholder {
 .theme-red .user-cart .cart-amount .cart-price,
 .theme-sky-blue .user-cart .cart-amount .cart-price,
 .theme-violet .user-cart .cart-amount .cart-price {
-    color: #464646
+    color: #fff
 }
 
 .user-cart .mini-cart-title {
@@ -19029,7 +19029,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-sky-blue .banner .banner-content>span:hover {
-    color: #3bb4d3
+    color: #c22228
 }
 
 .theme-marrs-green .banner .banner-content>span:hover {
@@ -19037,7 +19037,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .banner .banner-content>span:hover {
-    color: #3b75be
+    color: #c22228
 }
 
 .theme-pink .banner .banner-content>span:hover {
@@ -19330,7 +19330,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .scroll-top i:hover {
-    color: #3b75be
+    color: #c22228
 }
 
 .theme-pink .scroll-top i:hover {
@@ -29180,4 +29180,8 @@ body {
     .content-wrapper>.container>.col-lg-9.col-lg-offset-3~.alert {
         margin: 15px 0 5px
     }
+}
+
+.slider-image {
+    background-size: contain !important;
 }
