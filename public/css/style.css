@@ -6179,7 +6179,7 @@ a.thumbnail:hover {
     line-height: 20px;
     color: #fff;
     text-align: center;
-    background-color: #337ab7;
+    background-color: #c22228;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
     -webkit-transition: width .6s ease;
@@ -14314,7 +14314,6 @@ button.close {
 
 .slick-slide {
     float: left;
-    height: 100%;
     min-height: 1px;
     display: none
 }
@@ -19571,7 +19570,7 @@ textarea:-ms-input-placeholder {
 }
 
 .landscape-products-wrapper {
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 .landscape-products-wrapper .single-product {
@@ -19686,7 +19685,7 @@ textarea:-ms-input-placeholder {
 }
 
 .tab-products {
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 .tab-products .section-header h3 {
@@ -20964,7 +20963,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product-slider-wrapper {
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 .product-slider,
@@ -26640,7 +26639,7 @@ textarea:-ms-input-placeholder {
 }
 
 .section-wrapper {
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 .section-title {
@@ -28874,35 +28873,35 @@ span.flatpickr-weekday {
 }
 
 .theme-blue .theme-switcher>.icon:hover {
-    color: #1a86ff
+    color: #c22228
 }
 
 .theme-violet .theme-switcher>.icon:hover {
-    color: #9d44be
+    color: #c22228
 }
 
 .theme-red .theme-switcher>.icon:hover {
-    color: #ff2167
+    color: #c22228
 }
 
 .theme-sky-blue .theme-switcher>.icon:hover {
-    color: #3bb4d3
+    color: #c22228
 }
 
 .theme-marrs-green .theme-switcher>.icon:hover {
-    color: #0c858c
+    color: #c22228
 }
 
 .theme-navy-blue .theme-switcher>.icon:hover {
-    color: #3b75be
+    color: #c22228
 }
 
 .theme-pink .theme-switcher>.icon:hover {
-    color: #f36ca5
+    color: #c22228
 }
 
 .theme-black .theme-switcher>.icon:hover {
-    color: #494d62
+    color: #c22228
 }
 
 .theme-switcher>.icon>i {
