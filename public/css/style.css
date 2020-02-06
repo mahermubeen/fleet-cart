@@ -15258,7 +15258,7 @@ label i {
 }
 
 .theme-navy-blue label:hover i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink label:hover i {
@@ -15328,7 +15328,7 @@ label i {
 }
 
 .theme-navy-blue .form-control:focus {
-    border-color: #31629f
+    border-color: #c22228
 }
 
 .theme-pink .form-control:focus {
@@ -15360,7 +15360,7 @@ label i {
 }
 
 .theme-navy-blue .form-control:focus+.input-icon {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .form-control:focus+.input-icon {
@@ -15548,7 +15548,7 @@ textarea:focus {
 .theme-navy-blue input:focus,
 .theme-navy-blue select:focus,
 .theme-navy-blue textarea:focus {
-    border-color: #31629f
+    border-color: #c22228
 }
 
 .theme-pink input:focus,
@@ -15668,12 +15668,12 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: transparent url("../images/arrow-white.png") no-repeat right 8px center;
+    background: transparent url("../images/arrow-black.png") no-repeat right 8px center;
     background-size: 12px
 }
 
 .custom-select-black {
-    background: transparent url("../images/arrow-black.png") no-repeat right 8px center
+    background: #fff url(../images/arrow-black.png) no-repeat right 8px center
 }
 
 ::-webkit-input-placeholder {
@@ -15796,7 +15796,7 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .checkbox input[type=checkbox].checked+label:after,
 .theme-navy-blue .checkbox input[type=checkbox]:not(.checked)+label:after {
-    -webkit-text-stroke: 1px #31629f
+    -webkit-text-stroke: 1px #c22228
 }
 
 .theme-pink .checkbox input[type=checkbox].checked+label:after,
@@ -15830,7 +15830,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .checkbox input[type=checkbox].checked+label:before {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .checkbox input[type=checkbox].checked+label:before {
@@ -15874,7 +15874,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .checkbox input[type=checkbox].checked+label:after {
-    -webkit-text-stroke: 1px #31629f
+    -webkit-text-stroke: 1px #c22228
 }
 
 .theme-pink .checkbox input[type=checkbox].checked+label:after {
@@ -15984,7 +15984,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .radio input[type=radio]:checked+label:after {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .radio input[type=radio]:checked+label:after {
@@ -16031,7 +16031,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .radio input[type=radio]:not(:checked)+label:after {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .radio input[type=radio]:not(:checked)+label:after {
@@ -16083,7 +16083,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .switch input[type=checkbox].checked+.switch-slider {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .switch input[type=checkbox].checked+.switch-slider {
@@ -16218,7 +16218,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .nav-tabs>li>a:after {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .nav-tabs>li>a:after {
@@ -16329,7 +16329,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .btn-edit:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .btn-edit:hover {
@@ -16477,7 +16477,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .slick-dots li.slick-active button:before {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .slick-dots li.slick-active button:before {
@@ -16558,7 +16558,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .top-nav {
-    background: #1f508d
+    background: #f5f5f5
 }
 
 .theme-pink .top-nav {
@@ -16587,7 +16587,7 @@ textarea:-ms-input-placeholder {
 .theme-red .top-nav ul li a,
 .theme-sky-blue .top-nav ul li a,
 .theme-violet .top-nav ul li a {
-    color: #f1f1f1
+    color: #464646
 }
 
 .top-nav ul li a:hover {
@@ -16626,7 +16626,7 @@ textarea:-ms-input-placeholder {
 .theme-red .top-nav-left .top-nav-select,
 .theme-sky-blue .top-nav-left .top-nav-select,
 .theme-violet .top-nav-left .top-nav-select {
-    color: #f1f1f1
+    color: #464646
 }
 
 .theme-black .top-nav-left .top-nav-select>option,
@@ -16684,7 +16684,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .header-wrapper {
-    background: #31629f
+    background: #fff
 }
 
 .theme-pink .header-wrapper {
@@ -16723,7 +16723,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .header-inner {
-    background: #31629f
+    background: #fff
 }
 
 .theme-pink .header-inner {
@@ -16944,13 +16944,14 @@ textarea:-ms-input-placeholder {
     flex-grow: 1;
     padding-left: 10px;
     border-left: 2px solid #dce0e8;
-    background: #eff1f3
+    background: #fff
 }
 
 .search-box .search-box-button {
     -webkit-box-flex: 0;
     -ms-flex-positive: 0;
-    flex-grow: 0
+    flex-grow: 0;
+    background: #fff !important;
 }
 
 .search-box .search-box-button .search-box-btn {
@@ -16993,7 +16994,7 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .search-box .search-box-button .search-box-btn {
     color: #fafafa;
-    background: #1f508d
+    background: #c22228
 }
 
 .theme-pink .search-box .search-box-button .search-box-btn {
@@ -17003,7 +17004,7 @@ textarea:-ms-input-placeholder {
 
 .theme-black .search-box .search-box-button .search-box-btn {
     color: #fafafa;
-    background: #262938
+    background: #c22228
 }
 
 .theme-blue .search-box .search-box-button .search-box-btn:hover {
@@ -17023,11 +17024,11 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-marrs-green .search-box .search-box-button .search-box-btn:hover {
-    background: #0c858c
+    background: #c22228
 }
 
 .theme-navy-blue .search-box .search-box-button .search-box-btn:hover {
-    background: #3b75be
+    background: #c22228
 }
 
 .theme-pink .search-box .search-box-button .search-box-btn:hover {
@@ -17117,7 +17118,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .user-cart>.dropdown>.dropdown-menu {
-    border-bottom: 2px solid #31629f
+    border-bottom: 2px solid #c22228
 }
 
 .theme-pink .user-cart>.dropdown>.dropdown-menu {
@@ -17149,7 +17150,7 @@ textarea:-ms-input-placeholder {
 .theme-red .user-cart .user-cart-inner>i,
 .theme-sky-blue .user-cart .user-cart-inner>i,
 .theme-violet .user-cart .user-cart-inner>i {
-    color: #fafafa
+    color: #464646
 }
 
 .user-cart .cart-count {
@@ -17170,7 +17171,7 @@ textarea:-ms-input-placeholder {
     top: 0;
     font-size: 13px;
     border-radius: 50%;
-    background: #f15497;
+    background: #c22228;
     z-index: 1
 }
 
@@ -17223,7 +17224,7 @@ textarea:-ms-input-placeholder {
 .theme-red .user-cart .cart-amount .cart-label,
 .theme-sky-blue .user-cart .cart-amount .cart-label,
 .theme-violet .user-cart .cart-amount .cart-label {
-    color: #fafafa
+    color: #464646
 }
 
 .user-cart .cart-amount .cart-price {
@@ -17243,7 +17244,7 @@ textarea:-ms-input-placeholder {
 .theme-red .user-cart .cart-amount .cart-price,
 .theme-sky-blue .user-cart .cart-amount .cart-price,
 .theme-violet .user-cart .cart-amount .cart-price {
-    color: #fafafa
+    color: #464646
 }
 
 .user-cart .mini-cart-title {
@@ -17565,7 +17566,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-sky-blue .user-cart .cart-count {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .user-cart .cart-count {
@@ -17659,7 +17660,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .megamenu-wrapper {
-    background: #31629f
+    background: #fff
 }
 
 .theme-pink .megamenu-wrapper {
@@ -17693,11 +17694,11 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-marrs-green .navbar-default {
-    background: #0a6f75
+    background: #c22228
 }
 
 .theme-navy-blue .navbar-default {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .navbar-default {
@@ -17781,7 +17782,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .navbar-default .fluid-menu-content .title:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .navbar-default .fluid-menu-content .title:hover {
@@ -17824,7 +17825,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .navbar-default .fluid-menu-content ul li a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .navbar-default .fluid-menu-content ul li a:hover {
@@ -17911,7 +17912,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .navbar-default .multi-level li a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .navbar-default .multi-level li a:hover {
@@ -17952,7 +17953,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .navbar-default .multi-level .dropdown-submenu:hover>a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .navbar-default .multi-level .dropdown-submenu:hover>a {
@@ -17984,7 +17985,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .navbar-default .multi-level .dropdown-submenu:hover>a:after {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .navbar-default .multi-level .dropdown-submenu:hover>a:after {
@@ -18044,7 +18045,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .navbar-default .title:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .navbar-default .title:hover {
@@ -18118,7 +18119,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .sidebar-content>li.active>a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .sidebar-content>li.active>a {
@@ -18155,7 +18156,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .sidebar-content>li.active>i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .sidebar-content>li.active>i {
@@ -18214,7 +18215,7 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .sidebar-content li:hover>a,
 .theme-navy-blue .sidebar-content li:hover>i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .sidebar-content li:hover>a,
@@ -18306,7 +18307,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .sidebar-content .submenu.active>a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .sidebar-content .submenu.active>a {
@@ -18343,7 +18344,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .sidebar-content .submenu.active>i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .sidebar-content .submenu.active>i {
@@ -18393,11 +18394,11 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-marrs-green .category-menu-wrapper .category-menu-dropdown {
-    background: #006066
+    background: #c22228
 }
 
 .theme-navy-blue .category-menu-wrapper .category-menu-dropdown {
-    background: #1f508d
+    background: #c22228
 }
 
 .theme-pink .category-menu-wrapper .category-menu-dropdown {
@@ -18438,7 +18439,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .category-menu-wrapper .category-menu-dropdown .fa-bars {
-    -webkit-text-stroke: 1px #1f508d
+    -webkit-text-stroke: 1px #c22228
 }
 
 .theme-pink .category-menu-wrapper .category-menu-dropdown .fa-bars {
@@ -18523,7 +18524,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .category-menu-wrapper>.vertical-mega-menu>li:hover>a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .category-menu-wrapper>.vertical-mega-menu>li:hover>a {
@@ -18645,7 +18646,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .breadcrumb ul li:first-child a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .breadcrumb ul li:first-child a {
@@ -18747,7 +18748,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .breadcrumb ul li a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .breadcrumb ul li a:hover {
@@ -19005,7 +19006,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .banner .banner-content>span {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .banner .banner-content>span {
@@ -19184,7 +19185,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .single-feature .feature-icon {
-    border-right: 1px solid #31629f
+    border-right: 1px solid #c22228
 }
 
 .theme-pink .single-feature .feature-icon {
@@ -19220,7 +19221,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .single-feature .feature-icon i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .single-feature .feature-icon i {
@@ -19298,7 +19299,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .scroll-top i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .scroll-top i {
@@ -19880,7 +19881,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .base-image .base-image-inner span:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .base-image .base-image-inner span:hover {
@@ -19945,7 +19946,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .additional-image .thumb-image.slick-current {
-    border-color: #31629f
+    border-color: #c22228
 }
 
 .theme-pink .additional-image .thumb-image.slick-current {
@@ -20007,7 +20008,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .additional-image .image-placeholder.slick-current {
-    border-color: #31629f
+    border-color: #c22228
 }
 
 .theme-pink .additional-image .image-placeholder.slick-current {
@@ -20199,7 +20200,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .product-details .add-to form button:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .product-details .add-to form button:hover {
@@ -20446,7 +20447,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .rating .rating-bar .progress .progress-bar {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .rating .rating-bar .progress .progress-bar {
@@ -20728,7 +20729,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .tags li a {
-    border: 1px solid #31629f;
+    border: 1px solid #c22228;
     color: #626060
 }
 
@@ -20769,7 +20770,7 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .tags li a:hover {
     color: #fafafa;
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .tags li a:hover {
@@ -21140,7 +21141,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .product-card .product-content .product-price {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .product-card .product-content .product-price {
@@ -21287,7 +21288,7 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .product-card .btn-compare:hover,
 .theme-navy-blue .product-card .btn-wishlist:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .product-card .btn-compare:hover,
@@ -21383,9 +21384,9 @@ textarea:-ms-input-placeholder {
 .theme-navy-blue .product-card .btn-add-to-cart:active:not([disabled]),
 .theme-navy-blue .product-card .btn-add-to-cart:focus:not([disabled]),
 .theme-navy-blue .product-card .btn-add-to-cart:hover:not([disabled]) {
-    border-color: #31629f;
+    border-color: #c22228;
     color: #fafafa;
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .product-card .btn-add-to-cart:active:not([disabled]),
@@ -21608,7 +21609,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .login-form .login .register {
-    border: 4px solid #31629f;
+    border: 4px solid #c22228;
     color: #555
 }
 
@@ -21643,7 +21644,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .login-form .login .register:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .login-form .login .register:hover {
@@ -21693,7 +21694,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .login-form .forgot-password {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .login-form .forgot-password {
@@ -21849,7 +21850,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .register-form .checkbox a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .register-form .checkbox a {
@@ -21956,7 +21957,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .contact-right .contact-info>i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .contact-right .contact-info>i {
@@ -22063,7 +22064,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .my-account .sidebar-menu li a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .my-account .sidebar-menu li a:hover {
@@ -22095,7 +22096,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .my-account .sidebar-menu li a:hover i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .my-account .sidebar-menu li a:hover i {
@@ -22144,7 +22145,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .my-account .sidebar-menu li.active a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .my-account .sidebar-menu li.active a {
@@ -22176,7 +22177,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .my-account .sidebar-menu li.active a i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .my-account .sidebar-menu li.active a i {
@@ -22250,7 +22251,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .index-table .table-responsive td:nth-child(2) a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .index-table .table-responsive td:nth-child(2) a:hover {
@@ -22309,7 +22310,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .index-table .price {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .index-table .price {
@@ -22552,7 +22553,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .my-dashboard .recent-orders h4>a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .my-dashboard .recent-orders h4>a {
@@ -22670,7 +22671,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .my-dashboard .account-information a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .my-dashboard .account-information a {
@@ -22803,7 +22804,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .cart-list .table-responsive td:nth-child(3) {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .cart-list .table-responsive td:nth-child(3) {
@@ -22925,7 +22926,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .cart-list .table-responsive .btn-update:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .cart-list .table-responsive .btn-update:hover {
@@ -23036,7 +23037,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .cart-list-bottom .form-group input:focus {
-    border-color: #31629f
+    border-color: #c22228
 }
 
 .theme-pink .cart-list-bottom .form-group input:focus {
@@ -23227,7 +23228,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .cart-total .checkbox a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .cart-total .checkbox a {
@@ -23317,7 +23318,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .wizard .nav-tabs {
-    border-bottom-color: #31629f
+    border-bottom-color: #c22228
 }
 
 .theme-pink .wizard .nav-tabs {
@@ -23384,7 +23385,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .wizard li.active .round-tab {
-    border-color: #31629f
+    border-color: #c22228
 }
 
 .theme-pink .wizard li.active .round-tab {
@@ -23416,7 +23417,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .wizard li.active .round-tab i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .wizard li.active .round-tab i {
@@ -23472,7 +23473,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .wizard .nav-tabs>li.active:after {
-    border-bottom-color: #31629f
+    border-bottom-color: #c22228
 }
 
 .theme-pink .wizard .nav-tabs>li.active:after {
@@ -23547,7 +23548,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .wizard .nav-tabs>li.selected .round-tab {
-    border-color: #31629f
+    border-color: #c22228
 }
 
 .theme-pink .wizard .nav-tabs>li.selected .round-tab {
@@ -23579,7 +23580,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .wizard .nav-tabs>li.selected .round-tab i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .wizard .nav-tabs>li.selected .round-tab i {
@@ -23738,7 +23739,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .wizard-inner .progress .progress-bar {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .wizard-inner .progress .progress-bar {
@@ -24001,7 +24002,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .faq-accordion .panel-heading a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .faq-accordion .panel-heading a:hover {
@@ -24038,7 +24039,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .faq-accordion .panel-heading a:hover i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .faq-accordion .panel-heading a:hover i {
@@ -24070,7 +24071,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .faq-accordion .panel-heading a:focus {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .faq-accordion .panel-heading a:focus {
@@ -24183,7 +24184,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .product-list-header .nav-tabs>li.active a {
-    color: #31629f!important
+    color: #c22228!important
 }
 
 .theme-pink .product-list-header .nav-tabs>li.active a {
@@ -24296,7 +24297,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .filter-section .filter-category li.active>a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .filter-section .filter-category li.active>a {
@@ -24385,7 +24386,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .filter-section .filter-category a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .filter-section .filter-category a:hover {
@@ -24536,7 +24537,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .price-range-picker .noUi-connect {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .price-range-picker .noUi-connect {
@@ -24582,7 +24583,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .price-range-picker .noUi-handle {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .price-range-picker .noUi-handle {
@@ -24869,8 +24870,8 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .product-card-list .btn-compare:hover,
 .theme-navy-blue .product-card-list .btn-wishlist:hover {
-    color: #31629f;
-    border-color: #31629f
+    color: #c22228;
+    border-color: #c22228
 }
 
 .theme-pink .product-card-list .btn-compare:hover,
@@ -24906,7 +24907,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .product-card-list .add-to-cart[disabled]:hover {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .product-card-list .add-to-cart[disabled]:hover {
@@ -25133,7 +25134,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .footer .footer-top .contact .list-inline>li>i {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .footer .footer-top .contact .list-inline>li>i {
@@ -25218,7 +25219,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .footer .footer-top .links .list-inline>li>a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .footer .footer-top .links .list-inline>li>a:hover {
@@ -25342,7 +25343,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .footer .footer-middle .subscribe input:focus {
-    border-color: #31629f
+    border-color: #c22228
 }
 
 .theme-pink .footer .footer-middle .subscribe input:focus {
@@ -25390,7 +25391,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .footer .footer-bottom .copyright>a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .footer .footer-bottom .copyright>a {
@@ -25506,7 +25507,7 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .social-links>li a:focus,
 .theme-navy-blue .social-links>li a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .social-links>li a:focus,
@@ -25780,8 +25781,8 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .btn-primary {
     color: #fafafa;
-    background: #31629f;
-    border-color: #31629f
+    background: #c22228;
+    border-color: #c22228
 }
 
 .theme-pink .btn-primary {
@@ -25840,8 +25841,8 @@ textarea:-ms-input-placeholder {
 .theme-navy-blue .btn-primary:active:focus,
 .theme-navy-blue .btn-primary:focus,
 .theme-navy-blue .btn-primary:hover {
-    background: #3b75be;
-    border-color: #3b75be
+    background: #c22228;
+    border-color: #c22228
 }
 
 .theme-pink .btn-primary:active,
@@ -25911,7 +25912,7 @@ textarea:-ms-input-placeholder {
 .theme-navy-blue .btn-primary[disabled]:focus,
 .theme-navy-blue .btn-primary[disabled]:hover,
 .theme-navy-blue .btn-primary[disabled]:hover:focus {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .btn-primary.disabled:focus,
@@ -26135,7 +26136,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .btn-view:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .btn-view:hover {
@@ -26181,8 +26182,8 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .go-back-link {
-    border: 1px solid #31629f;
-    color: #31629f
+    border: 1px solid #c22228;
+    color: #c22228
 }
 
 .theme-pink .go-back-link {
@@ -26228,7 +26229,7 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .go-back-link:focus,
 .theme-navy-blue .go-back-link:hover {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .go-back-link:focus,
@@ -26424,7 +26425,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .color-primary {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .color-primary {
@@ -26605,7 +26606,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .product-price {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .product-price {
@@ -26682,7 +26683,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .section-title:before {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .section-title:before {
@@ -26725,7 +26726,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .section-title:after {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .section-title:after {
@@ -26774,7 +26775,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .section-header h3 {
-    border-bottom: 2px solid #31629f
+    border-bottom: 2px solid #c22228
 }
 
 .theme-pink .section-header h3 {
@@ -26943,7 +26944,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .form .bg-blue {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .form .bg-blue {
@@ -27137,7 +27138,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .pagination>li>a {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .pagination>li>a {
@@ -27179,7 +27180,7 @@ textarea:-ms-input-placeholder {
 
 .theme-navy-blue .pagination>li>a:focus,
 .theme-navy-blue .pagination>li>a:hover {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .pagination>li>a:focus,
@@ -27229,8 +27230,8 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .pagination>.active {
-    border-color: #31629f;
-    background: #31629f
+    border-color: #c22228;
+    background: #c22228
 }
 
 .theme-pink .pagination>.active {
@@ -27264,7 +27265,7 @@ textarea:-ms-input-placeholder {
 }
 
 .theme-navy-blue .pagination>.active:hover {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-pink .pagination>.active:hover {
@@ -28770,7 +28771,7 @@ span.flatpickr-weekday {
 }
 
 .theme-navy-blue .selectize-input.focus {
-    border-color: #31629f
+    border-color: #c22228
 }
 
 .theme-pink .selectize-input.focus {
@@ -28861,7 +28862,7 @@ span.flatpickr-weekday {
 }
 
 .theme-navy-blue .theme-switcher>.icon {
-    color: #31629f
+    color: #c22228
 }
 
 .theme-pink .theme-switcher>.icon {
@@ -28955,7 +28956,7 @@ span.flatpickr-weekday {
 }
 
 .theme-switcher .color.navy-blue {
-    background: #31629f
+    background: #c22228
 }
 
 .theme-switcher .color.pink {
